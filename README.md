@@ -4,3 +4,4 @@
 
 1) Added function to send a message
 2) Added function to open/close chatbot window
+3) Bot response generation function (temporarily unavailable)
