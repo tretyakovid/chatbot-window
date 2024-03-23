@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot-window</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <button class="chatbot-toggler">
+      <span>+</span>
+    </button>
+    <div class="chatbot">
+      <div class="chatbot__header">
+        <h2 class="chatbot__heading">Chatbot Alex</h2>
+      </div>
+      <ul class="chatbot__chatbox">
+        <li class="chatbot__message message--incoming">
+          <span class="bot">Bot:</span>
+          <p class="chatbot__text">Hi there! <br />How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chatbot__input">
+        <textarea placeholder="Enter a message..."></textarea>
+        <button class="chatbot__send-btn">Send</button>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
